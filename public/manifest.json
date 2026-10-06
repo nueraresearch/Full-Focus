@@ -1,0 +1,43 @@
+{
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "name": "OrbitFocus Executive Hub",
+  "short_name": "OrbitFocus",
+  "description": "Executive task prioritization, Pomodoro focus tracking, and multi-platform sync for Android.",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#020617",
+  "background_color": "#020617",
+  "categories": ["productivity", "business", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Capture Task",
+      "short_name": "New Task",
+      "description": "Quickly capture an idea or research tab",
+      "url": "/?action=capture",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Start Pomodoro",
+      "short_name": "Focus Now",
+      "description": "Start a 25-minute deep work session",
+      "url": "/?action=focus",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

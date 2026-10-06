@@ -1,0 +1,8 @@
+{
+  "name": "OrbitFocus - Executive Productivity & Workflow Hub",
+  "description": "Smart task prioritization, Pomodoro & time tracking, deadline calendar, reminders, and cross-platform integrations with GitHub, WordPress, M365, Google Workspace, and Claude.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
